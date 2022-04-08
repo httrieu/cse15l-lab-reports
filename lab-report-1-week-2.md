@@ -33,5 +33,13 @@ Follow these steps:
 
 4. **Moving Files With SCP**
     - Here we are gonna attempt to transfer files from your local computer to the remote server.
-    
+    - In visual studio code, create a file named: CopyMe.java
+    - In the file, put the following lines of code
+    ```
+    class CopyMe {
+        public static void main(String[] args) {
+            System.out.println(System.out.println("Hello World!"));
+    }
+    ```
+    - Save it then open a new terminal in the directory you made this file.
 
