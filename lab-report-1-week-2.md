@@ -15,7 +15,7 @@ Follow these steps:
     - Open a new terminal
     ![Image](report1.jpg)
     - If you don't already know your username and password for your course-specific account you can find it [HERE](https://sdacs.ucsd.edu/~icc/index.php)
-    - Now, with your terminal, you need to put this command in: "ssh cs15lsp22zz@ieng6.ucsd.edu", with the email being your username you found in the step above
+    - Now, with your terminal, you need to put this command in: *ssh cs15lsp22zz@ieng6.ucsd.edu* , with the email being your username you found in the step above
     ![Image](ssh.jpg)
     - It will then prompt you for your password, while you type it  in, it will not appear for security reasons. Press enter when done to log in.
     ![Image](ssh2.jpg)
@@ -33,7 +33,7 @@ Follow these steps:
 
 4. **Moving Files With SCP**
     - Here we are gonna attempt to transfer files from your local computer to the remote server.
-    - In visual studio code, create a file named: CopyMe.java
+    - In visual studio code, create a file named: *CopyMe.java*
     - In the file, put the following lines of code
     ```
     class CopyMe {
