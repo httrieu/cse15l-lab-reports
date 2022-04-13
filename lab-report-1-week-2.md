@@ -45,7 +45,8 @@ Follow these steps:
     ```
     - Save it then open a new terminal in the directory you made this file.
     ![Image](scp.jpg)
-    - Now in your terminal, input the command: ```scp CopyMe.java cs15lsp22zz@ieng6.ucsd.edu:~/``` (again replacing the email with your username)
+    - Now in your terminal, input the command: 
+    ```scp CopyMe.java cs15lsp22zz@ieng6.ucsd.edu:~/``` (again replacing the email with your username)
 
     - It will ask for your password, just type it in the same way you would log in.
     - Now the file will be in the server! Log in once more with ssh, and type the command ls, you should be able to see your file now!
