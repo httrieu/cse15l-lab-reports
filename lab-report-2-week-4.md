@@ -9,6 +9,10 @@
     `[https://www.microsoft.com/en-us/store/apps/windows, test.jpg]`
 -  The bug was the result of the program not accounting for an image accidentally being placed in the markdown file. The prgoram could not tell the difference between a link and an image. This led to the symptom that the program would then output the both the links and the image file the same, instead of ignoring the image file because it was not a link. 
 
-## 2. Bug 2: 
+## 2. Bug 2: Having a markdown file begin with a link or image
+### Code Change
+![image](lab3b.jpg)
+- [The failure-inducing input file](https://github.com/httrieu/markdown-parser/blob/main/test-file3.md)
+- 
 
 ## 3. Bug 3
