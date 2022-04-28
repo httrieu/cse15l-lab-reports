@@ -28,12 +28,18 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String ind
 
 ## 3. Bug 3: Empty markdown file (no links)
 ### Code Change 1
-![image](lab3c.jpg)
-### Code Change 2
-![image](lab3d.jpg)
-- [The failure-inducing input file](https://github.com/httrieu/markdown-parser/blob/main/test-file4.md)
+![image](pic2.jpg)
+- [The failure-inducing input file](https://github.com/httrieu/markdown-parser/blob/main/test-file7v2.md)
 - Wrong output:
 ```
-[]
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+        at java.base/java.util.Arrays.copyOf(Arrays.java:3512)        
+        at java.base/java.util.Arrays.copyOf(Arrays.java:3481)        
+        at java.base/java.util.ArrayList.grow(ArrayList.java:237)     
+        at java.base/java.util.ArrayList.grow(ArrayList.java:244)     
+        at java.base/java.util.ArrayList.add(ArrayList.java:454)      
+        at java.base/java.util.ArrayList.add(ArrayList.java:467)      
+        at MarkdownParse.getLinks(MarkdownParse.java:19)
+        at MarkdownParse.main(MarkdownParse.java:30)
 ```
-- With an empty file as the input, the arraylist would then be empty and this was a bug. With an empty arraylist the symptom would just be the program printing out a empty arraylist when it should throw an exception to tell the user that it's an invalid input.
+- With an wrongly formatted file as the input, the markdown program would run forever and this was a bug. The symptom would just be the program crashing and throwing an exception since it ran out of memory. 
