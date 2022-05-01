@@ -26,7 +26,7 @@ Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String ind
 ```
 - The bug was a result of the previous fix, where it would check the index out of bounds. The input markdown file starts with a image or link, and because of this it would check index -1 for an exclamation mark, which is out of bounds. The symptom would be the error output we have. 
 
-## 3. Bug 3: Empty markdown file (no links)
+## 3. Bug 3: Badly Formatted Markdown File (only open parenthesis)
 ### Code Change 1
 ![image](pic2.jpg)
 - [The failure-inducing input file](https://github.com/httrieu/markdown-parser/blob/main/test-file7v2.md)
