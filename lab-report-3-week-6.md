@@ -23,9 +23,13 @@
 ![image](personalssh.jpg)
 
 ### 4. Private Key on ieng6 Account
+![image](files.jpg)
 
+### 5. Testing it out
+![image](done.jpg)
 
-### Link to the
+### 6. Testing the Push command
+![image](done2.jpg)
 
 ## Copy whole directories with scp -r
 
