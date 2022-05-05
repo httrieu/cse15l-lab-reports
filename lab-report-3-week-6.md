@@ -13,17 +13,17 @@
 
 ## Setup Github Access from ieng6
 
-### 1. Public key in github
-![image](sshkey.jpg)
+### 1. Created Keys for Github
+![image](keygen4.jpg)
 
-### 2. Public key in my account
-![image](sshkeys3.jpg)
+### 2. Added Key to SSH-Agent
+![image](sshagent.jpg)
 
-### 3. Private key in my account
-![image](sshkeys.jpg)
+### 3. Added Public Key to GitHub
+![image](personalssh.jpg)
 
-### Git Commands
-![image](report3.jpg)
+### 4. Private Key on ieng6 Account
+
 
 ### Link to the
 
